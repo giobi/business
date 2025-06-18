@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="it" data-bs-theme="dark">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,21 +8,22 @@
     <!-- Bootstrap 5 CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- Font Monospace -->
-    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
     <style>
         body {
             font-family: 'JetBrains Mono', monospace;
             background-color: #0d1117;
             color: #f0f6fc;
         }
-        
+
         .hero-section {
             height: 100vh;
             background: linear-gradient(135deg, #0d1117 0%, #161b22 100%);
             position: relative;
             overflow: hidden;
         }
-        
+
         .hero-overlay {
             position: absolute;
             top: 0;
@@ -30,14 +32,14 @@
             bottom: 0;
             background: linear-gradient(45deg, rgba(88, 166, 255, 0.1), rgba(124, 58, 237, 0.1));
         }
-        
+
         .mountain-image {
             width: 100%;
             height: 100vh;
             object-fit: cover;
             opacity: 0.3;
         }
-        
+
         .hero-content {
             position: absolute;
             top: 50%;
@@ -46,7 +48,7 @@
             text-align: center;
             z-index: 10;
         }
-        
+
         .header-gradient {
             background: linear-gradient(45deg, #58a6ff, #7c3aed);
             -webkit-background-clip: text;
@@ -54,7 +56,7 @@
             color: transparent;
             font-weight: 700;
         }
-        
+
         .section-card {
             background: #161b22;
             border: 1px solid #30363d;
@@ -64,13 +66,13 @@
             box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
             transition: all 0.3s ease;
         }
-        
+
         .section-card:hover {
             transform: translateY(-5px);
             border-color: #58a6ff;
             box-shadow: 0 15px 35px rgba(88, 166, 255, 0.2);
         }
-        
+
         .feature-card {
             background: #21262d;
             border: 1px solid #30363d;
@@ -80,13 +82,13 @@
             transition: all 0.3s ease;
             height: 100%;
         }
-        
+
         .feature-card:hover {
             transform: translateY(-5px);
             border-color: #58a6ff;
             box-shadow: 0 10px 25px rgba(88, 166, 255, 0.15);
         }
-        
+
         .feature-icon {
             width: 80px;
             height: 80px;
@@ -98,7 +100,7 @@
             margin: 0 auto 1.5rem;
             font-size: 2rem;
         }
-        
+
         .btn-primary {
             background: linear-gradient(45deg, #58a6ff, #7c3aed);
             border: none;
@@ -106,32 +108,32 @@
             padding: 12px 30px;
             transition: all 0.3s ease;
         }
-        
+
         .btn-primary:hover {
             background: linear-gradient(45deg, #388bfd, #6d28d9);
             transform: translateY(-2px);
             box-shadow: 0 5px 15px rgba(88, 166, 255, 0.3);
         }
-        
+
         .btn-outline-light {
             border-color: #58a6ff;
             color: #58a6ff;
             transition: all 0.3s ease;
         }
-        
+
         .btn-outline-light:hover {
             background-color: #58a6ff;
             border-color: #58a6ff;
             color: #ffffff;
             transform: translateY(-2px);
         }
-        
+
         .stats-number {
             font-size: 3rem;
             font-weight: 700;
             color: #58a6ff;
         }
-        
+
         .gallery-item {
             position: relative;
             overflow: hidden;
@@ -139,18 +141,18 @@
             cursor: pointer;
             transition: all 0.3s ease;
         }
-        
+
         .gallery-item:hover {
             transform: scale(1.05);
         }
-        
+
         .gallery-item img {
             width: 100%;
             height: 250px;
             object-fit: cover;
             transition: all 0.3s ease;
         }
-        
+
         .gallery-overlay {
             position: absolute;
             top: 0;
@@ -164,49 +166,50 @@
             align-items: center;
             justify-content: center;
         }
-        
+
         .gallery-item:hover .gallery-overlay {
             opacity: 1;
         }
-        
+
         .section-title {
             color: #58a6ff;
             font-weight: 600;
             margin-bottom: 2rem;
         }
-        
+
         .code-accent {
             color: #58a6ff;
             font-weight: 500;
         }
-        
+
         .code-comment {
             color: #94a3b8;
             font-style: italic;
         }
-        
+
         .navbar-custom {
             background: rgba(13, 17, 23, 0.95);
             backdrop-filter: blur(10px);
             border-bottom: 1px solid #30363d;
         }
-        
+
         .navbar-brand {
             font-weight: 700;
             color: #58a6ff !important;
         }
-        
+
         .nav-link {
             color: #f0f6fc !important;
             font-weight: 500;
             transition: all 0.3s ease;
         }
-        
+
         .nav-link:hover {
             color: #58a6ff !important;
         }
     </style>
 </head>
+
 <body>
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-custom fixed-top">
@@ -268,14 +271,18 @@
                 <div class="row align-items-center">
                     <div class="col-lg-6">
                         <h2 class="section-title">
-                            <span class="code-accent">class</span> MountainAdventure <span class="code-comment">// About Us</span>
+                            <span class="code-accent">class</span> MountainAdventure <span class="code-comment">// About
+                                Us</span>
                         </h2>
                         <p class="mb-4">
-                            Experience the majesty of mountain landscapes through our innovative approach to outdoor exploration. 
-                            We combine traditional mountain knowledge with modern technology to create unforgettable experiences.
+                            Experience the majesty of mountain landscapes through our innovative approach to outdoor
+                            exploration.
+                            We combine traditional mountain knowledge with modern technology to create unforgettable
+                            experiences.
                         </p>
                         <p class="mb-4">
-                            Our team of experienced guides and tech enthusiasts work together to provide you with the most 
+                            Our team of experienced guides and tech enthusiasts work together to provide you with the
+                            most
                             comprehensive mountain experience possible, ensuring both safety and adventure.
                         </p>
                         <div class="row g-3">
@@ -290,9 +297,8 @@
                         </div>
                     </div>
                     <div class="col-lg-6">
-                        <img src="https://picsum.photos/600/400?random=hiking" 
-                             alt="Mountain hiking" 
-                             class="img-fluid rounded shadow-lg">
+                        <img src="https://picsum.photos/600/400?random=hiking" alt="Mountain hiking"
+                            class="img-fluid rounded shadow-lg">
                     </div>
                 </div>
             </div>
@@ -310,7 +316,7 @@
                     Cutting-edge tools and expert guidance for your mountain adventures
                 </p>
             </div>
-            
+
             <div class="row g-4">
                 <div class="col-lg-4 col-md-6">
                     <div class="feature-card">
@@ -319,11 +325,12 @@
                         </div>
                         <h3 class="code-accent mb-3">Expert Guides</h3>
                         <p>
-                            Professional mountain guides with decades of experience in alpine environments and safety protocols.
+                            Professional mountain guides with decades of experience in alpine environments and safety
+                            protocols.
                         </p>
                     </div>
                 </div>
-                
+
                 <div class="col-lg-4 col-md-6">
                     <div class="feature-card">
                         <div class="feature-icon">
@@ -331,11 +338,12 @@
                         </div>
                         <h3 class="code-accent mb-3">Tech Integration</h3>
                         <p>
-                            Advanced GPS tracking, weather monitoring, and safety communication systems for modern expeditions.
+                            Advanced GPS tracking, weather monitoring, and safety communication systems for modern
+                            expeditions.
                         </p>
                     </div>
                 </div>
-                
+
                 <div class="col-lg-4 col-md-6">
                     <div class="feature-card">
                         <div class="feature-icon">
@@ -347,7 +355,7 @@
                         </p>
                     </div>
                 </div>
-                
+
                 <div class="col-lg-4 col-md-6">
                     <div class="feature-card">
                         <div class="feature-icon">
@@ -359,7 +367,7 @@
                         </p>
                     </div>
                 </div>
-                
+
                 <div class="col-lg-4 col-md-6">
                     <div class="feature-card">
                         <div class="feature-icon">
@@ -371,7 +379,7 @@
                         </p>
                     </div>
                 </div>
-                
+
                 <div class="col-lg-4 col-md-6">
                     <div class="feature-card">
                         <div class="feature-icon">
@@ -392,13 +400,14 @@
         <div class="container">
             <div class="text-center mb-5">
                 <h2 class="section-title">
-                    <span class="code-accent">array</span> gallery = <span class="code-comment">// Mountain Memories</span>
+                    <span class="code-accent">array</span> gallery = <span class="code-comment">// Mountain
+                        Memories</span>
                 </h2>
                 <p class="lead">
                     Breathtaking moments captured during our expeditions
                 </p>
             </div>
-            
+
             <div class="row g-4">
                 <div class="col-lg-4 col-md-6">
                     <div class="gallery-item">
@@ -408,7 +417,7 @@
                         </div>
                     </div>
                 </div>
-                
+
                 <div class="col-lg-4 col-md-6">
                     <div class="gallery-item">
                         <img src="https://picsum.photos/400/300?random=mountain2" alt="Mountain trail">
@@ -417,7 +426,7 @@
                         </div>
                     </div>
                 </div>
-                
+
                 <div class="col-lg-4 col-md-6">
                     <div class="gallery-item">
                         <img src="https://picsum.photos/400/300?random=mountain3" alt="Mountain sunrise">
@@ -426,7 +435,7 @@
                         </div>
                     </div>
                 </div>
-                
+
                 <div class="col-lg-4 col-md-6">
                     <div class="gallery-item">
                         <img src="https://picsum.photos/400/300?random=mountain4" alt="Mountain camp">
@@ -435,7 +444,7 @@
                         </div>
                     </div>
                 </div>
-                
+
                 <div class="col-lg-4 col-md-6">
                     <div class="gallery-item">
                         <img src="https://picsum.photos/400/300?random=mountain5" alt="Mountain landscape">
@@ -444,7 +453,7 @@
                         </div>
                     </div>
                 </div>
-                
+
                 <div class="col-lg-4 col-md-6">
                     <div class="gallery-item">
                         <img src="https://picsum.photos/400/300?random=mountain6" alt="Mountain climbing">
@@ -464,16 +473,19 @@
                 <div class="row">
                     <div class="col-lg-6">
                         <h2 class="section-title">
-                            <span class="code-accent">function</span> contactUs() <span class="code-comment">// Get in Touch</span>
+                            <span class="code-accent">function</span> contactUs() <span class="code-comment">// Get in
+                                Touch</span>
                         </h2>
                         <p class="mb-4">
-                            Ready to start your mountain adventure? Contact our team of experts to plan your next expedition.
+                            Ready to start your mountain adventure? Contact our team of experts to plan your next
+                            expedition.
                         </p>
-                        
+
                         <div class="row g-4">
                             <div class="col-sm-6">
                                 <div class="d-flex align-items-center">
-                                    <div class="feature-icon me-3" style="width: 50px; height: 50px; font-size: 1.25rem;">
+                                    <div class="feature-icon me-3"
+                                        style="width: 50px; height: 50px; font-size: 1.25rem;">
                                         📧
                                     </div>
                                     <div>
@@ -482,10 +494,11 @@
                                     </div>
                                 </div>
                             </div>
-                            
+
                             <div class="col-sm-6">
                                 <div class="d-flex align-items-center">
-                                    <div class="feature-icon me-3" style="width: 50px; height: 50px; font-size: 1.25rem;">
+                                    <div class="feature-icon me-3"
+                                        style="width: 50px; height: 50px; font-size: 1.25rem;">
                                         📞
                                     </div>
                                     <div>
@@ -496,20 +509,23 @@
                             </div>
                         </div>
                     </div>
-                    
+
                     <div class="col-lg-6">
                         <form class="mt-4 mt-lg-0">
                             <div class="mb-3">
                                 <label for="name" class="form-label">Name</label>
-                                <input type="text" class="form-control bg-dark border-secondary text-light" id="name" required>
+                                <input type="text" class="form-control bg-dark border-secondary text-light" id="name"
+                                    required>
                             </div>
                             <div class="mb-3">
                                 <label for="email" class="form-label">Email</label>
-                                <input type="email" class="form-control bg-dark border-secondary text-light" id="email" required>
+                                <input type="email" class="form-control bg-dark border-secondary text-light" id="email"
+                                    required>
                             </div>
                             <div class="mb-3">
                                 <label for="message" class="form-label">Message</label>
-                                <textarea class="form-control bg-dark border-secondary text-light" id="message" rows="4" required></textarea>
+                                <textarea class="form-control bg-dark border-secondary text-light" id="message" rows="4"
+                                    required></textarea>
                             </div>
                             <button type="submit" class="btn btn-primary w-100">
                                 Send Message
@@ -527,7 +543,7 @@
             <div class="row align-items-center">
                 <div class="col-md-6">
                     <p class="mb-0">
-                        <span class="code-accent">©</span> 2025 Mountain Experience. 
+                        <span class="code-accent">©</span> 2025 Mountain Experience.
                         Built with <span class="text-danger">♥</span> and Bootstrap 5
                     </p>
                 </div>
@@ -542,7 +558,7 @@
 
     <!-- Bootstrap 5 JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-    
+
     <!-- Custom JavaScript -->
     <script>
         // Smooth scrolling for navigation links
@@ -560,7 +576,7 @@
         });
 
         // Navbar background opacity on scroll
-        window.addEventListener('scroll', function() {
+        window.addEventListener('scroll', function () {
             const navbar = document.querySelector('.navbar-custom');
             if (window.scrollY > 50) {
                 navbar.style.background = 'rgba(13, 17, 23, 0.98)';
@@ -571,21 +587,22 @@
 
         // Add hover effects to cards
         document.querySelectorAll('.feature-card, .gallery-item').forEach(card => {
-            card.addEventListener('mouseenter', function() {
+            card.addEventListener('mouseenter', function () {
                 this.style.transform = 'translateY(-5px)';
             });
-            
-            card.addEventListener('mouseleave', function() {
+
+            card.addEventListener('mouseleave', function () {
                 this.style.transform = 'translateY(0)';
             });
         });
 
         // Form submission handler
-        document.querySelector('form').addEventListener('submit', function(e) {
+        document.querySelector('form').addEventListener('submit', function (e) {
             e.preventDefault();
             alert('Message sent! We\'ll get back to you soon.');
             this.reset();
         });
     </script>
 </body>
+
 </html>
