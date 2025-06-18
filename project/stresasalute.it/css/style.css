@@ -1,0 +1,152 @@
+/* Stresa Salute - CSS Theme */
+/* Based on Giobicom25 Bootstrap Dark Theme */
+
+body {
+    font-family: 'JetBrains Mono', monospace;
+    background-color: #0d1117;
+    color: #f0f6fc;
+}
+
+/* Sections and Cards */
+.section-card {
+    background: #161b22;
+    border: 1px solid #30363d;
+    border-radius: 15px;
+    padding: 2.5rem;
+    margin-bottom: 2rem;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+}
+
+.section-card:hover {
+    transform: translateY(-2px);
+    border-color: #58a6ff;
+    box-shadow: 0 15px 35px rgba(88, 166, 255, 0.1);
+}
+
+/* Headers */
+.section-title {
+    color: #58a6ff;
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+
+.header-gradient {
+    background: linear-gradient(45deg, #58a6ff, #7c3aed);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-weight: 700;
+}
+
+/* Tables */
+.table-dark {
+    background-color: #161b22;
+    border-color: #30363d;
+}
+
+.table-dark th {
+    background-color: #58a6ff;
+    border-color: #30363d;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.table-dark td {
+    border-color: #30363d;
+    color: #f0f6fc;
+}
+
+.table-dark tbody tr:hover {
+    background-color: #21262d;
+    color: #58a6ff;
+}
+
+/* Keyword Cards */
+.keyword-card {
+    background: #21262d;
+    border: 1px solid #30363d;
+    border-left: 4px solid #58a6ff;
+    border-radius: 12px;
+    padding: 1.5rem;
+    margin-bottom: 1rem;
+    transition: all 0.3s ease;
+}
+
+.keyword-card:hover {
+    transform: translateY(-3px);
+    border-left-color: #7c3aed;
+    box-shadow: 0 8px 20px rgba(88, 166, 255, 0.15);
+}
+
+.keyword-card h3 {
+    color: #58a6ff;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+/* Buttons */
+.btn-primary {
+    background: linear-gradient(45deg, #58a6ff, #7c3aed);
+    border: none;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+    background: linear-gradient(45deg, #388bfd, #6d28d9);
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(88, 166, 255, 0.3);
+}
+
+.btn-outline-light {
+    border-color: #30363d;
+    color: #f0f6fc;
+    transition: all 0.3s ease;
+}
+
+.btn-outline-light:hover {
+    background-color: #58a6ff;
+    border-color: #58a6ff;
+    color: #ffffff;
+    transform: translateY(-2px);
+}
+
+/* Opportunity Text */
+.opportunity-high {
+    color: #4ade80;
+    font-weight: 600;
+}
+
+.opportunity-medium {
+    color: #fbbf24;
+    font-weight: 600;
+}
+
+.opportunity-low {
+    color: #94a3b8;
+    font-weight: 500;
+}
+
+/* Code-like styling */
+.code-accent {
+    color: #58a6ff;
+    font-weight: 500;
+}
+
+.code-comment {
+    color: #94a3b8;
+    font-style: italic;
+}
+
+/* Responsive utilities */
+@media (max-width: 768px) {
+    .section-card {
+        padding: 1.5rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .keyword-card {
+        padding: 1rem;
+    }
+}
