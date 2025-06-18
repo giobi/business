@@ -37,30 +37,78 @@
 
 ---
 
-## 🔤 **Tipografia**
+## 📏 **Typography Scale Aggiornata - V1.1**
 
-### Font Principal
-- **Font**: JetBrains Mono (monospace)
-- **Pesi**: 300, 400, 500, 600, 700
-- **Uso**: Tutto il testo per consistenza "developer"
+### Font Sizing Philosophy
+- **Approccio**: Font più piccoli con interlinea generosa per eleganza e leggibilità
+- **Spazio negativo**: Priorità agli spazi bianchi per respirabilità del layout
+- **Densità informativa**: Ridotta per migliorare UX
 
-### Gerarchia Tipografica
+### Nuova Scala Tipografica
 ```css
-/* Headers */
-h1: 3.5rem (display-4) - fw-bold
-h2: 2.5rem (section-title) - fw-600
-h3: 1.5rem (card-title) - fw-600
-h4: 1.25rem (subtitle) - fw-500
+/* Base Typography */
+body: 0.875rem (14px) - line-height: 1.8
+p: 0.875rem (14px) - line-height: 1.8 - margin-bottom: 1.5rem
+.lead: 1rem (16px) - line-height: 1.7 - margin-bottom: 2rem
 
-/* Body */
-p: 1rem (base) - fw-400
-small: 0.875rem - fw-400
+/* Headers Ridimensionate */
+h1 (.header-gradient): 2.5rem (40px) - line-height: 1.3 - margin-bottom: 2rem
+h2 (.section-title): 1.75rem (28px) - line-height: 1.4 - margin-bottom: 3rem
+h3 (.keyword-card h3): 1rem (16px) - line-height: 1.5 - margin-bottom: 1rem
+
+/* Small Text */
+.table td, th: 0.8rem (12.8px) - line-height: 1.6
+.keyword-card content: 0.8rem (12.8px) - line-height: 1.7
+.form-label: 0.8rem (12.8px) - letter-spacing: 0.3px
 ```
 
-### Stili Speciali
-- **Code Accent**: `color: #58a6ff; font-weight: 500;`
-- **Comments**: `color: #94a3b8; font-style: italic;`
-- **Gradients**: Effetto testo trasparente con gradiente
+### Spacing Migliorato
+```css
+/* Padding Aumentato */
+.section-card: padding: 3.5rem (56px) - margin-bottom: 3rem
+.keyword-card: padding: 2rem (32px) - margin-bottom: 1.5rem
+.container: padding-left/right: 2rem (32px)
+.container-fluid: padding-top/bottom: 4rem (64px)
+
+/* Table Spacing */
+.table td, th: padding: 1rem 1.5rem (16px 24px)
+.table th: padding-top/bottom: 1.25rem (20px)
+
+/* Button Spacing */
+.btn: padding: 0.75rem 2rem (12px 32px)
+```
+
+### Mobile Responsive Adjustments
+```css
+@media (max-width: 768px) {
+    .section-card: padding: 2.5rem 2rem
+    .header-gradient: font-size: 2rem
+    .section-title: font-size: 1.5rem
+    .container: padding-left/right: 1.5rem
+}
+```
+
+---
+
+## 🎯 **Design Rationale V1.1**
+
+### Perché Font Più Piccoli?
+1. **Eleganza moderna**: Look più raffinato e professionale
+2. **Densità controllata**: Meno sovraccarico visivo
+3. **Gerarchia chiara**: Contrasti di dimensione più sottili ma efficaci
+4. **Mobile-friendly**: Migliore adattamento su schermi piccoli
+
+### Perché Interlinea Maggiore?
+1. **Leggibilità superiore**: Testo più facile da scansionare
+2. **Respiro visivo**: Meno affollamento, più eleganza
+3. **Professionalità**: Tipografia da pubblicazione di qualità
+4. **Accessibilità**: Migliore per utenti con difficoltà di lettura
+
+### Perché Padding Maggiore?
+1. **Spazio negativo**: Elemento fondamentale del design moderno
+2. **Focus sul contenuto**: Meno distrazioni, più concentrazione
+3. **Breathing room**: Layout che "respira" è più piacevole
+4. **Premium feel**: Design che comunica qualità e attenzione ai dettagli
 
 ---
 
