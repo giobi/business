@@ -1,730 +1,938 @@
 [
   {
-    "Codice": "WEBDESPAG",
-    "Nome prodotto/servizio": "Web design pagina web",
-    "Descrizione": "Web design pagina web Realizzazione design pagina web con un giro di correzioni\n- home\n- about (lo studio)\n- servizi (attività)\n- pubblicazioni\n- rassegna stampa\n- contatti",
-    "Categoria": "Designer",
-    "Prezzo netto": 200.0,
-    "Prezzo lordo": "",
-    "Aliquota IVA": "",
-    "Descrizione aliquota IVA": "",
-    "U.D.M.": "pagine",
-    "Extra": "From quote 001/2025 (09/01/2025)",
-    "Prezzo di acquisto": 0.0,
-    "Giacenza": ""
+    "documento": "001/2025",
+    "tipologia": "preventivo",
+    "data": "09/01/2025",
+    "cliente": {
+      "nome": "viale Bianca Maria 13",
+      "indirizzo": "20122 Milano (MI)",
+      "citta": "",
+      "piva": "",
+      "email": "martina.cagossi@gmail.com"
+    },
+    "oggetto": "studioluparia.it - restyling sito web e hosting - rev 2025",
+    "prodotti": [
+      {
+        "codice": "WD200",
+        "descrizione": "- about (lo studio)",
+        "quantita": 6,
+        "prezzo_unitario": 200.0,
+        "totale": 1200.0,
+        "udm": "pagine"
+      },
+      {
+        "codice": "DI50",
+        "descrizione": "6 pagine € 50,00 € 300,00",
+        "quantita": 6,
+        "prezzo_unitario": 50.0,
+        "totale": 300.0,
+        "udm": "pagine"
+      },
+      {
+        "codice": "WPI500",
+        "descrizione": "1 siti € 700,00 € 700,00",
+        "quantita": 1,
+        "prezzo_unitario": 700.0,
+        "totale": 700.0,
+        "udm": "siti"
+      },
+      {
+        "codice": "LIC",
+        "descrizione": "3 licenze annuali € 50,00 € 150,00",
+        "quantita": 1,
+        "prezzo_unitario": 50.0,
+        "totale": 150.0,
+        "udm": ""
+      },
+      {
+        "codice": "SW20",
+        "descrizione": "12 mesi € 20,00 € 240,00",
+        "quantita": 12,
+        "prezzo_unitario": 20.0,
+        "totale": 240.0,
+        "udm": "mesi"
+      },
+      {
+        "codice": "WP250",
+        "descrizione": "1 siti € 250,00 € 250,00",
+        "quantita": 1,
+        "prezzo_unitario": 250.0,
+        "totale": 250.0,
+        "udm": "siti"
+      },
+      {
+        "codice": "PRI",
+        "descrizione": "Installazione e monitoraggio codici",
+        "quantita": 1,
+        "prezzo_unitario": 80.0,
+        "totale": 80.0,
+        "udm": "siti"
+      }
+    ],
+    "altri_dati": {
+      "totale": 2828.8,
+      "modalita_pagamento": "Bonifico",
+      "note": "Pagamento rimessa diretta su cc"
+    }
   },
   {
-    "Codice": "DI50",
-    "Nome prodotto/servizio": "Data insert",
-    "Descrizione": "Data insert Inserimento contenuti in pagina web",
-    "Categoria": "Data insert",
-    "Prezzo netto": 50.0,
-    "Prezzo lordo": "",
-    "Aliquota IVA": "",
-    "Descrizione aliquota IVA": "",
-    "U.D.M.": "pagine",
-    "Extra": "From quote 001/2025 (09/01/2025), From quote 008/2025 (15/07/2025), From quote 009/2025 (15/07/2025)",
-    "Prezzo di acquisto": 0.0,
-    "Giacenza": ""
+    "documento": "002/2025",
+    "tipologia": "preventivo",
+    "data": "12/02/2025",
+    "cliente": {
+      "nome": "Elena Soressi e Andre Pintu",
+      "indirizzo": "",
+      "citta": "",
+      "piva": "",
+      "email": ""
+    },
+    "oggetto": "Wedding 26 aprile Vezzo - Stresa",
+    "prodotti": [
+      {
+        "codice": "MUS120",
+        "descrizione": "Service audio e impianto",
+        "quantita": 1,
+        "prezzo_unitario": 150.0,
+        "totale": 150.0,
+        "udm": "postazioni"
+      },
+      {
+        "codice": "MUSLIVE",
+        "descrizione": "1 ore € 100,00 € 100,00",
+        "quantita": 1,
+        "prezzo_unitario": 100.0,
+        "totale": 100.0,
+        "udm": "ore"
+      },
+      {
+        "codice": "MUS120",
+        "descrizione": "Service audio in location ricevimento, senza la",
+        "quantita": 1,
+        "prezzo_unitario": 150.0,
+        "totale": 150.0,
+        "udm": "postazioni"
+      },
+      {
+        "codice": "DJSOFT",
+        "descrizione": "DJ e intrattenimento soft durante il ricevimento",
+        "quantita": 4,
+        "prezzo_unitario": 80.0,
+        "totale": 320.0,
+        "udm": "ore"
+      }
+    ],
+    "altri_dati": {
+      "totale": 720.0,
+      "modalita_pagamento": "Bonifico",
+      "note": "Pagamento rimessa diretta su cc"
+    }
   },
   {
-    "Codice": "INSSITWEB",
-    "Nome prodotto/servizio": "Installazione sito web wordpress base",
-    "Descrizione": "Installazione sito web wordpress base Allestimento ed installazione sito web base Wordpress\n- allocazione applicativo in server\n- installazione wordpress\n- installazione e configurazione plugin",
-    "Categoria": "Developer",
-    "Prezzo netto": 700.0,
-    "Prezzo lordo": "",
-    "Aliquota IVA": "",
-    "Descrizione aliquota IVA": "",
-    "U.D.M.": "siti",
-    "Extra": "From quote 001/2025 (09/01/2025), From quote 004/2025 (24/03/2025), From quote 005/2025 (25/03/2025), From quote 006/2025 (27/03/2025), From quote 008/2025 (15/07/2025), From quote 009/2025 (15/07/2025)",
-    "Prezzo di acquisto": 0.0,
-    "Giacenza": ""
+    "documento": "003/2025",
+    "tipologia": "preventivo",
+    "data": "13/02/2025",
+    "cliente": {
+      "nome": "Erica Martella e Frederik Giuliani",
+      "indirizzo": "",
+      "citta": "",
+      "piva": "",
+      "email": ""
+    },
+    "oggetto": "Wedding 8 settembre 2025 Monte Zeglio",
+    "prodotti": [
+      {
+        "codice": "MUS120",
+        "descrizione": "Service audio e impianto",
+        "quantita": 1,
+        "prezzo_unitario": 150.0,
+        "totale": 150.0,
+        "udm": "postazioni"
+      },
+      {
+        "codice": "MUSLIVE",
+        "descrizione": "1 ore € 100,00 € 100,00",
+        "quantita": 1,
+        "prezzo_unitario": 100.0,
+        "totale": 100.0,
+        "udm": "ore"
+      },
+      {
+        "codice": "SERVICE",
+        "descrizione": "1 postazioni € 150,00 € 150,00",
+        "quantita": 1,
+        "prezzo_unitario": 150.0,
+        "totale": 150.0,
+        "udm": "postazioni"
+      },
+      {
+        "codice": "MUS120",
+        "descrizione": "Service audio in location ricevimento, senza la",
+        "quantita": 1,
+        "prezzo_unitario": 150.0,
+        "totale": 150.0,
+        "udm": "postazioni"
+      },
+      {
+        "codice": "DJSOFT",
+        "descrizione": "DJ e intrattenimento soft durante il ricevimento",
+        "quantita": 4,
+        "prezzo_unitario": 80.0,
+        "totale": 320.0,
+        "udm": "ore"
+      },
+      {
+        "codice": "MUSDJ",
+        "descrizione": "Dj e intrattenimento",
+        "quantita": 2,
+        "prezzo_unitario": 100.0,
+        "totale": 200.0,
+        "udm": "ore"
+      }
+    ],
+    "altri_dati": {
+      "totale": 1070.0,
+      "modalita_pagamento": "Bonifico",
+      "note": "Pagamento rimessa diretta su cc"
+    }
   },
   {
-    "Codice": "LIC",
-    "Nome prodotto/servizio": "Licenza prodotto software",
-    "Descrizione": "Licenza prodotto software\n- Elementor pro\n- Iubenda\n- Translatepress",
-    "Categoria": "Saas",
-    "Prezzo netto": 50.0,
-    "Prezzo lordo": "",
-    "Aliquota IVA": "",
-    "Descrizione aliquota IVA": "",
-    "U.D.M.": "licenze",
-    "Extra": "From quote 001/2025 (09/01/2025)",
-    "Prezzo di acquisto": 0.0,
-    "Giacenza": ""
+    "documento": "004/2025",
+    "tipologia": "preventivo",
+    "data": "24/03/2025",
+    "cliente": {
+      "nome": "16121 GENOVA (GE)",
+      "indirizzo": "",
+      "citta": "",
+      "piva": "02975090990",
+      "email": ""
+    },
+    "oggetto": "Realizzazione ecommerce 2025",
+    "prodotti": [
+      {
+        "codice": "WPI500",
+        "descrizione": "- gestione dominio",
+        "quantita": 1,
+        "prezzo_unitario": 700.0,
+        "totale": 700.0,
+        "udm": "siti"
+      },
+      {
+        "codice": "WD200",
+        "descrizione": "9 pagine € 200,00 € 1.800,00",
+        "quantita": 9,
+        "prezzo_unitario": 200.0,
+        "totale": 1800.0,
+        "udm": "pagine"
+      },
+      {
+        "codice": "DI50",
+        "descrizione": "9 pagine € 70,00 € 630,00",
+        "quantita": 9,
+        "prezzo_unitario": 70.0,
+        "totale": 630.0,
+        "udm": "pagine"
+      },
+      {
+        "codice": "WOO500",
+        "descrizione": "1 € 800,00 € 800,00",
+        "quantita": 500,
+        "prezzo_unitario": 800.0,
+        "totale": 800.0,
+        "udm": "1"
+      },
+      {
+        "codice": "LIC",
+        "descrizione": "3 licenze annuali € 100,00 € 300,00",
+        "quantita": 1,
+        "prezzo_unitario": 100.0,
+        "totale": 300.0,
+        "udm": ""
+      },
+      {
+        "codice": "SW30",
+        "descrizione": "12 mesi € 30,00 € 360,00",
+        "quantita": 12,
+        "prezzo_unitario": 30.0,
+        "totale": 360.0,
+        "udm": "mesi"
+      },
+      {
+        "codice": "WP200",
+        "descrizione": "1 siti € 200,00 € 200,00",
+        "quantita": 1,
+        "prezzo_unitario": 200.0,
+        "totale": 200.0,
+        "udm": "siti"
+      },
+      {
+        "codice": "ECOM",
+        "descrizione": "12 mesi € 80,00 € 960,00",
+        "quantita": 12,
+        "prezzo_unitario": 80.0,
+        "totale": 960.0,
+        "udm": "mesi"
+      }
+    ],
+    "altri_dati": {
+      "totale": 5980.0,
+      "modalita_pagamento": "Bonifico",
+      "note": "Pagamento rimessa diretta su cc"
+    }
   },
   {
-    "Codice": "SERWEBSMA",
-    "Nome prodotto/servizio": "Server web small 20",
-    "Descrizione": "Server web small 20 Server web 20 small\n- infrastruttura server\n- gestione ambiente linux\n- backup automatico e on demand\n- crisis management",
-    "Categoria": "Developer",
-    "Prezzo netto": 20.0,
-    "Prezzo lordo": "",
-    "Aliquota IVA": "",
-    "Descrizione aliquota IVA": "",
-    "U.D.M.": "mesi",
-    "Extra": "From quote 001/2025 (09/01/2025), From quote 008/2025 (15/07/2025), From quote 009/2025 (15/07/2025), From quote 013/2025 (27/08/2025)",
-    "Prezzo di acquisto": 0.0,
-    "Giacenza": ""
+    "documento": "005/2025",
+    "tipologia": "preventivo",
+    "data": "25/03/2025",
+    "cliente": {
+      "nome": "Mario Rossi",
+      "indirizzo": "",
+      "citta": "",
+      "piva": "",
+      "email": ""
+    },
+    "oggetto": "Realizzazione sito web 2025",
+    "prodotti": [
+      {
+        "codice": "WPI500",
+        "descrizione": "- gestione dominio",
+        "quantita": 1,
+        "prezzo_unitario": 700.0,
+        "totale": 700.0,
+        "udm": "siti"
+      },
+      {
+        "codice": "WD200",
+        "descrizione": "5 pagine € 200,00 € 1.000,00",
+        "quantita": 5,
+        "prezzo_unitario": 200.0,
+        "totale": 1000.0,
+        "udm": "pagine"
+      },
+      {
+        "codice": "DI50",
+        "descrizione": "5 pagine € 50,00 € 250,00",
+        "quantita": 5,
+        "prezzo_unitario": 50.0,
+        "totale": 250.0,
+        "udm": "pagine"
+      },
+      {
+        "codice": "LIC",
+        "descrizione": "1 licenze annuali € 100,00 € 100,00",
+        "quantita": 1,
+        "prezzo_unitario": 100.0,
+        "totale": 100.0,
+        "udm": ""
+      },
+      {
+        "codice": "SW50",
+        "descrizione": "12 mesi € 50,00 € 600,00",
+        "quantita": 12,
+        "prezzo_unitario": 50.0,
+        "totale": 600.0,
+        "udm": "mesi"
+      },
+      {
+        "codice": "WP20",
+        "descrizione": "12 mesi € 20,00 € 240,00",
+        "quantita": 12,
+        "prezzo_unitario": 20.0,
+        "totale": 240.0,
+        "udm": "mesi"
+      }
+    ],
+    "altri_dati": {
+      "totale": 3005.6,
+      "modalita_pagamento": "Bonifico",
+      "note": "Pagamento rimessa diretta su cc"
+    }
   },
   {
-    "Codice": "WP250",
-    "Nome prodotto/servizio": "Wordpress monitor e update",
-    "Descrizione": "Wordpress monitor e update Update e monitoraggio Wordpress annuale",
-    "Categoria": "Developer",
-    "Prezzo netto": 250.0,
-    "Prezzo lordo": "",
-    "Aliquota IVA": "",
-    "Descrizione aliquota IVA": "",
-    "U.D.M.": "siti",
-    "Extra": "From quote 001/2025 (09/01/2025)",
-    "Prezzo di acquisto": 0.0,
-    "Giacenza": ""
+    "documento": "006/2025",
+    "tipologia": "preventivo",
+    "data": "27/03/2025",
+    "cliente": {
+      "nome": "via Leopardi 1",
+      "indirizzo": "20123 Milano (MI)",
+      "citta": "",
+      "piva": "",
+      "email": "jalosi@digitag.me"
+    },
+    "oggetto": "Realizzazione sito web finasi.com 2025",
+    "prodotti": [
+      {
+        "codice": "WPI500",
+        "descrizione": "1 siti € 700,00 € 700,00",
+        "quantita": 1,
+        "prezzo_unitario": 700.0,
+        "totale": 700.0,
+        "udm": "siti"
+      },
+      {
+        "codice": "WD200",
+        "descrizione": "3 pagine € 200,00 € 600,00",
+        "quantita": 3,
+        "prezzo_unitario": 200.0,
+        "totale": 600.0,
+        "udm": "pagine"
+      },
+      {
+        "codice": "DI50",
+        "descrizione": "7 pagine € 50,00 € 350,00",
+        "quantita": 7,
+        "prezzo_unitario": 50.0,
+        "totale": 350.0,
+        "udm": "pagine"
+      },
+      {
+        "codice": "LIC",
+        "descrizione": "1 licenze annuali € 100,00 € 100,00",
+        "quantita": 1,
+        "prezzo_unitario": 100.0,
+        "totale": 100.0,
+        "udm": ""
+      },
+      {
+        "codice": "SW30",
+        "descrizione": "12 mesi € 30,00 € 360,00",
+        "quantita": 12,
+        "prezzo_unitario": 30.0,
+        "totale": 360.0,
+        "udm": "mesi"
+      },
+      {
+        "codice": "WP20",
+        "descrizione": "12 mesi € 20,00 € 240,00",
+        "quantita": 12,
+        "prezzo_unitario": 20.0,
+        "totale": 240.0,
+        "udm": "mesi"
+      }
+    ],
+    "altri_dati": {
+      "totale": 2444.0,
+      "modalita_pagamento": "Bonifico",
+      "note": "Pagamento rimessa diretta su cc"
+    }
   },
   {
-    "Codice": "GESPRISIT",
-    "Nome prodotto/servizio": "Gestione privacy sito web standard",
-    "Descrizione": "Gestione privacy sito web standard Installazione e monitoraggio codici Iubenda per siti web a medio traffico",
-    "Categoria": "Developer",
-    "Prezzo netto": 80.0,
-    "Prezzo lordo": "",
-    "Aliquota IVA": "",
-    "Descrizione aliquota IVA": "",
-    "U.D.M.": "siti",
-    "Extra": "From quote 001/2025 (09/01/2025)",
-    "Prezzo di acquisto": 0.0,
-    "Giacenza": ""
+    "documento": "007/2025",
+    "tipologia": "preventivo",
+    "data": "11/04/2025",
+    "cliente": {
+      "nome": "28831 Baveno (VB)",
+      "indirizzo": "",
+      "citta": "",
+      "piva": "00388490039",
+      "email": "turismo@comune.baveno.vb.it"
+    },
+    "oggetto": "Note d'estate 2025",
+    "prodotti": [
+      {
+        "codice": "MUSLIVE",
+        "descrizione": "1 esibizioni € 650,00 € 650,00",
+        "quantita": 1,
+        "prezzo_unitario": 650.0,
+        "totale": 650.0,
+        "udm": "esibizioni"
+      },
+      {
+        "codice": "MUSLIVE",
+        "descrizione": "2 esibizioni € 650,00 € 1.300,00",
+        "quantita": 2,
+        "prezzo_unitario": 650.0,
+        "totale": 1300.0,
+        "udm": "esibizioni"
+      },
+      {
+        "codice": "MUSLIVE",
+        "descrizione": "1 esibizioni € 550,00 € 550,00",
+        "quantita": 1,
+        "prezzo_unitario": 550.0,
+        "totale": 550.0,
+        "udm": "esibizioni"
+      }
+    ],
+    "altri_dati": {
+      "totale": 2600.0,
+      "modalita_pagamento": "Bonifico",
+      "note": "Pagamento rimessa diretta su cc"
+    }
   },
   {
-    "Codice": "SCONTO",
-    "Nome prodotto/servizio": "Sconto",
-    "Descrizione": "Sconto Sconto in fattura per cliente consolidato",
-    "Categoria": "Sconti",
-    "Prezzo netto": -100.0,
-    "Prezzo lordo": "",
-    "Aliquota IVA": "",
-    "Descrizione aliquota IVA": "",
-    "U.D.M.": "",
-    "Extra": "From quote 001/2025 (09/01/2025)",
-    "Prezzo di acquisto": 0.0,
-    "Giacenza": ""
+    "documento": "008/2025",
+    "tipologia": "preventivo",
+    "data": "15/07/2025",
+    "cliente": {
+      "nome": "Mario Rossi",
+      "indirizzo": "",
+      "citta": "",
+      "piva": "",
+      "email": ""
+    },
+    "oggetto": "Realizzazione sito web con catalogo 2025",
+    "prodotti": [
+      {
+        "codice": "WPI500",
+        "descrizione": "- gestione dominio",
+        "quantita": 1,
+        "prezzo_unitario": 700.0,
+        "totale": 700.0,
+        "udm": "siti"
+      },
+      {
+        "codice": "WD200",
+        "descrizione": "5 pagine € 200,00 € 1.000,00",
+        "quantita": 5,
+        "prezzo_unitario": 200.0,
+        "totale": 1000.0,
+        "udm": "pagine"
+      },
+      {
+        "codice": "DEV50",
+        "descrizione": "5 ore € 50,00 € 250,00",
+        "quantita": 5,
+        "prezzo_unitario": 50.0,
+        "totale": 250.0,
+        "udm": "ore"
+      },
+      {
+        "codice": "DI50",
+        "descrizione": "5 pagine € 50,00 € 250,00",
+        "quantita": 5,
+        "prezzo_unitario": 50.0,
+        "totale": 250.0,
+        "udm": "pagine"
+      },
+      {
+        "codice": "LIC",
+        "descrizione": "1 licenze annuali € 100,00 € 100,00",
+        "quantita": 1,
+        "prezzo_unitario": 100.0,
+        "totale": 100.0,
+        "udm": ""
+      },
+      {
+        "codice": "SW20",
+        "descrizione": "12 mesi € 20,00 € 240,00",
+        "quantita": 12,
+        "prezzo_unitario": 20.0,
+        "totale": 240.0,
+        "udm": "mesi"
+      },
+      {
+        "codice": "WP20",
+        "descrizione": "12 mesi € 20,00 € 240,00",
+        "quantita": 12,
+        "prezzo_unitario": 20.0,
+        "totale": 240.0,
+        "udm": "mesi"
+      }
+    ],
+    "altri_dati": {
+      "totale": 2891.2,
+      "modalita_pagamento": "Bonifico",
+      "note": "Pagamento rimessa diretta su cc"
+    }
   },
   {
-    "Codice": "SERAUDE",
-    "Nome prodotto/servizio": "Service audio e impianto",
-    "Descrizione": "Service audio e impianto",
-    "Categoria": "Music",
-    "Prezzo netto": 150.0,
-    "Prezzo lordo": "",
-    "Aliquota IVA": "",
-    "Descrizione aliquota IVA": "",
-    "U.D.M.": "postazioni",
-    "Extra": "From quote 002/2025 (12/02/2025), From quote 003/2025 (13/02/2025), From quote 012/2025 (20/07/2025), From quote 014/2025 (11/09/2025)",
-    "Prezzo di acquisto": 0.0,
-    "Giacenza": ""
+    "documento": "009/2025",
+    "tipologia": "preventivo",
+    "data": "15/07/2025",
+    "cliente": {
+      "nome": "STEFANO E GUIDA FA BIO",
+      "indirizzo": "VIA UGO SIRONI - VILLA PARIANI 5",
+      "citta": "28921 VERBANIA (VB)",
+      "piva": "02162340034",
+      "email": ""
+    },
+    "oggetto": "brutell.it - sito 5 pagine con catalogo prodotti",
+    "prodotti": [
+      {
+        "codice": "WPI500",
+        "descrizione": "- gestione dominio",
+        "quantita": 1,
+        "prezzo_unitario": 700.0,
+        "totale": 700.0,
+        "udm": "siti"
+      },
+      {
+        "codice": "WD200",
+        "descrizione": "5 pagine € 200,00 € 1.000,00",
+        "quantita": 5,
+        "prezzo_unitario": 200.0,
+        "totale": 1000.0,
+        "udm": "pagine"
+      },
+      {
+        "codice": "DEV50",
+        "descrizione": "5 ore € 50,00 € 250,00",
+        "quantita": 5,
+        "prezzo_unitario": 50.0,
+        "totale": 250.0,
+        "udm": "ore"
+      },
+      {
+        "codice": "DI50",
+        "descrizione": "5 pagine € 50,00 € 250,00",
+        "quantita": 5,
+        "prezzo_unitario": 50.0,
+        "totale": 250.0,
+        "udm": "pagine"
+      },
+      {
+        "codice": "LIC",
+        "descrizione": "1 licenze annuali € 70,00 € 70,00",
+        "quantita": 1,
+        "prezzo_unitario": 70.0,
+        "totale": 70.0,
+        "udm": ""
+      },
+      {
+        "codice": "SW20",
+        "descrizione": "12 mesi € 20,00 € 240,00",
+        "quantita": 12,
+        "prezzo_unitario": 20.0,
+        "totale": 240.0,
+        "udm": "mesi"
+      },
+      {
+        "codice": "WP20",
+        "descrizione": "12 mesi € 20,00 € 240,00",
+        "quantita": 12,
+        "prezzo_unitario": 20.0,
+        "totale": 240.0,
+        "udm": "mesi"
+      }
+    ],
+    "altri_dati": {
+      "totale": 2860.0,
+      "modalita_pagamento": "Bonifico",
+      "note": "Pagamento rimessa diretta su cc"
+    }
   },
   {
-    "Codice": "MUSLIVE",
-    "Nome prodotto/servizio": "Musica dal vivo",
-    "Descrizione": "Musica dal vivo Cerimonia standard con 1 musicista",
-    "Categoria": "Music",
-    "Prezzo netto": 100.0,
-    "Prezzo lordo": "",
-    "Aliquota IVA": "",
-    "Descrizione aliquota IVA": "",
-    "U.D.M.": "ore",
-    "Extra": "From quote 002/2025 (12/02/2025), From quote 003/2025 (13/02/2025)",
-    "Prezzo di acquisto": 0.0,
-    "Giacenza": ""
+    "documento": "010/2025",
+    "tipologia": "preventivo",
+    "data": "15/07/2025",
+    "cliente": {
+      "nome": "Mario Rossi",
+      "indirizzo": "",
+      "citta": "",
+      "piva": "",
+      "email": ""
+    },
+    "oggetto": "Realizzazione single page 2025",
+    "prodotti": [
+      {
+        "codice": "WPI500",
+        "descrizione": "1 siti € 500,00 € 500,00",
+        "quantita": 1,
+        "prezzo_unitario": 500.0,
+        "totale": 500.0,
+        "udm": "siti"
+      },
+      {
+        "codice": "WD200",
+        "descrizione": "2 pagine € 200,00 € 400,00",
+        "quantita": 2,
+        "prezzo_unitario": 200.0,
+        "totale": 400.0,
+        "udm": "pagine"
+      },
+      {
+        "codice": "DI50",
+        "descrizione": "1 pagine € 50,00 € 50,00",
+        "quantita": 1,
+        "prezzo_unitario": 50.0,
+        "totale": 50.0,
+        "udm": "pagine"
+      },
+      {
+        "codice": "LIC",
+        "descrizione": "1 licenze annuali € 70,00 € 70,00",
+        "quantita": 1,
+        "prezzo_unitario": 70.0,
+        "totale": 70.0,
+        "udm": ""
+      },
+      {
+        "codice": "SW20",
+        "descrizione": "12 mesi € 20,00 € 240,00",
+        "quantita": 12,
+        "prezzo_unitario": 20.0,
+        "totale": 240.0,
+        "udm": "mesi"
+      },
+      {
+        "codice": "WP10",
+        "descrizione": "12 mesi € 10,00 € 120,00",
+        "quantita": 12,
+        "prezzo_unitario": 10.0,
+        "totale": 120.0,
+        "udm": "mesi"
+      }
+    ],
+    "altri_dati": {
+      "totale": 1435.2,
+      "modalita_pagamento": "Bonifico",
+      "note": "Pagamento rimessa diretta su cc"
+    }
   },
   {
-    "Codice": "MUS120",
-    "Nome prodotto/servizio": "Service audio e impianto",
-    "Descrizione": "Service audio e impianto Service audio in location ricevimento, senza la parte di aperitivo",
-    "Categoria": "Music",
-    "Prezzo netto": 150.0,
-    "Prezzo lordo": "",
-    "Aliquota IVA": "",
-    "Descrizione aliquota IVA": "",
-    "U.D.M.": "postazioni",
-    "Extra": "From quote 002/2025 (12/02/2025), From quote 003/2025 (13/02/2025)",
-    "Prezzo di acquisto": 0.0,
-    "Giacenza": ""
+    "documento": "011/2025",
+    "tipologia": "preventivo",
+    "data": "15/07/2025",
+    "cliente": {
+      "nome": "STEFANO E GUIDA FA BIO",
+      "indirizzo": "VIA UGO SIRONI - VILLA PARIANI 5",
+      "citta": "28921 VERBANIA (VB)",
+      "piva": "02162340034",
+      "email": ""
+    },
+    "oggetto": "brutell.it - single page",
+    "prodotti": [
+      {
+        "codice": "WPI500",
+        "descrizione": "1 siti € 500,00 € 500,00",
+        "quantita": 1,
+        "prezzo_unitario": 500.0,
+        "totale": 500.0,
+        "udm": "siti"
+      },
+      {
+        "codice": "WD200",
+        "descrizione": "2 pagine € 200,00 € 400,00",
+        "quantita": 2,
+        "prezzo_unitario": 200.0,
+        "totale": 400.0,
+        "udm": "pagine"
+      },
+      {
+        "codice": "DI50",
+        "descrizione": "1 pagine € 50,00 € 50,00",
+        "quantita": 1,
+        "prezzo_unitario": 50.0,
+        "totale": 50.0,
+        "udm": "pagine"
+      },
+      {
+        "codice": "LIC",
+        "descrizione": "1 licenze annuali € 70,00 € 70,00",
+        "quantita": 1,
+        "prezzo_unitario": 70.0,
+        "totale": 70.0,
+        "udm": ""
+      },
+      {
+        "codice": "SW20",
+        "descrizione": "12 mesi € 20,00 € 240,00",
+        "quantita": 12,
+        "prezzo_unitario": 20.0,
+        "totale": 240.0,
+        "udm": "mesi"
+      },
+      {
+        "codice": "WP10",
+        "descrizione": "12 mesi € 10,00 € 120,00",
+        "quantita": 12,
+        "prezzo_unitario": 10.0,
+        "totale": 120.0,
+        "udm": "mesi"
+      }
+    ],
+    "altri_dati": {
+      "totale": 1435.2,
+      "modalita_pagamento": "Bonifico",
+      "note": "Pagamento rimessa diretta su cc"
+    }
   },
   {
-    "Codice": "DJEINT",
-    "Nome prodotto/servizio": "Dj e intrattenimento ricevimento",
-    "Descrizione": "Dj e intrattenimento ricevimento DJ e intrattenimento soft durante il ricevimento dalle 14 alle 18",
-    "Categoria": "Music",
-    "Prezzo netto": 80.0,
-    "Prezzo lordo": "",
-    "Aliquota IVA": "",
-    "Descrizione aliquota IVA": "",
-    "U.D.M.": "ore",
-    "Extra": "From quote 002/2025 (12/02/2025), From quote 003/2025 (13/02/2025)",
-    "Prezzo di acquisto": 0.0,
-    "Giacenza": ""
+    "documento": "012/2025",
+    "tipologia": "preventivo",
+    "data": "20/07/2025",
+    "cliente": {
+      "nome": "Rebecca Colombo e Mirko Zanni",
+      "indirizzo": "",
+      "citta": "",
+      "piva": "",
+      "email": ""
+    },
+    "oggetto": "Wedding 23 maggio 2026",
+    "prodotti": [
+      {
+        "codice": "MUS120",
+        "descrizione": "Service audio e impianto",
+        "quantita": 1,
+        "prezzo_unitario": 150.0,
+        "totale": 150.0,
+        "udm": "postazioni"
+      },
+      {
+        "codice": "MUSLIVE",
+        "descrizione": "1 ore € 150,00 € 150,00",
+        "quantita": 1,
+        "prezzo_unitario": 150.0,
+        "totale": 150.0,
+        "udm": "ore"
+      },
+      {
+        "codice": "MUSLIVE",
+        "descrizione": "1 ore € 100,00 € 100,00",
+        "quantita": 1,
+        "prezzo_unitario": 100.0,
+        "totale": 100.0,
+        "udm": "ore"
+      },
+      {
+        "codice": "MUS120",
+        "descrizione": "Service audio in location ricevimento, senza la",
+        "quantita": 1,
+        "prezzo_unitario": 150.0,
+        "totale": 150.0,
+        "udm": "postazioni"
+      },
+      {
+        "codice": "DJSOFT",
+        "descrizione": "DJ e intrattenimento soft durante il ricevimento",
+        "quantita": 4,
+        "prezzo_unitario": 80.0,
+        "totale": 320.0,
+        "udm": "ore"
+      },
+      {
+        "codice": "MUSDJ",
+        "descrizione": "1 ore € 100,00 € 100,00",
+        "quantita": 1,
+        "prezzo_unitario": 100.0,
+        "totale": 100.0,
+        "udm": "ore"
+      }
+    ],
+    "altri_dati": {
+      "totale": 970.0,
+      "modalita_pagamento": "Bonifico",
+      "note": "Pagamento rimessa diretta su cc"
+    }
   },
   {
-    "Codice": "SERVICE",
-    "Nome prodotto/servizio": "Service audio e impianto",
-    "Descrizione": "Service audio e impianto Postdaizone aperitivo con spotify",
-    "Categoria": "Music",
-    "Prezzo netto": 150.0,
-    "Prezzo lordo": "",
-    "Aliquota IVA": "",
-    "Descrizione aliquota IVA": "",
-    "U.D.M.": "postazioni",
-    "Extra": "From quote 003/2025 (13/02/2025)",
-    "Prezzo di acquisto": 0.0,
-    "Giacenza": ""
+    "documento": "013/2025",
+    "tipologia": "preventivo",
+    "data": "27/08/2025",
+    "cliente": {
+      "nome": "Stefano Bergmaschi",
+      "indirizzo": "",
+      "citta": "",
+      "piva": "",
+      "email": ""
+    },
+    "oggetto": "ticinotraverso.com - single page",
+    "prodotti": [
+      {
+        "codice": "WPI500",
+        "descrizione": "1 siti € 500,00 € 500,00",
+        "quantita": 1,
+        "prezzo_unitario": 500.0,
+        "totale": 500.0,
+        "udm": "siti"
+      },
+      {
+        "codice": "WD200",
+        "descrizione": "2 pagine € 200,00 € 400,00",
+        "quantita": 2,
+        "prezzo_unitario": 200.0,
+        "totale": 400.0,
+        "udm": "pagine"
+      },
+      {
+        "codice": "DI50",
+        "descrizione": "1 pagine € 50,00 € 50,00",
+        "quantita": 1,
+        "prezzo_unitario": 50.0,
+        "totale": 50.0,
+        "udm": "pagine"
+      },
+      {
+        "codice": "LIC",
+        "descrizione": "1 licenze annuali € 70,00 € 70,00",
+        "quantita": 1,
+        "prezzo_unitario": 70.0,
+        "totale": 70.0,
+        "udm": ""
+      },
+      {
+        "codice": "LIC",
+        "descrizione": "- Translatepress pro per traduzione in 1 licenze annuali € 200,00 € 200,00",
+        "quantita": 1,
+        "prezzo_unitario": 200.0,
+        "totale": 200.0,
+        "udm": ""
+      },
+      {
+        "codice": "SW20",
+        "descrizione": "12 mesi € 20,00 € 240,00",
+        "quantita": 12,
+        "prezzo_unitario": 20.0,
+        "totale": 240.0,
+        "udm": "mesi"
+      },
+      {
+        "codice": "WP10",
+        "descrizione": "12 mesi € 10,00 € 120,00",
+        "quantita": 12,
+        "prezzo_unitario": 10.0,
+        "totale": 120.0,
+        "udm": "mesi"
+      }
+    ],
+    "altri_dati": {
+      "totale": 1643.2,
+      "modalita_pagamento": "Bonifico",
+      "note": "Pagamento rimessa diretta su cc"
+    }
   },
   {
-    "Codice": "MUSDJ",
-    "Nome prodotto/servizio": "Dj e intrattenimento",
-    "Descrizione": "Dj e intrattenimento",
-    "Categoria": "Music",
-    "Prezzo netto": 100.0,
-    "Prezzo lordo": "",
-    "Aliquota IVA": "",
-    "Descrizione aliquota IVA": "",
-    "U.D.M.": "ore",
-    "Extra": "From quote 003/2025 (13/02/2025), From quote 012/2025 (20/07/2025)",
-    "Prezzo di acquisto": 0.0,
-    "Giacenza": ""
-  },
-  {
-    "Codice": "WD200",
-    "Nome prodotto/servizio": "Web design pagina web principale",
-    "Descrizione": "Web design pagina web principale Realizzazione design pagina web con un giro di correzioni\n- home\n- azienda\n- ecommerce archivio\n- prodotto singolo\n- checkout\n- carrello\n- pagamento\n- layout statico\n- contatti",
-    "Categoria": "Designer",
-    "Prezzo netto": 200.0,
-    "Prezzo lordo": "",
-    "Aliquota IVA": "",
-    "Descrizione aliquota IVA": "",
-    "U.D.M.": "pagine",
-    "Extra": "From quote 004/2025 (24/03/2025), From quote 005/2025 (25/03/2025), From quote 006/2025 (27/03/2025), From quote 008/2025 (15/07/2025), From quote 009/2025 (15/07/2025), From quote 010/2025 (15/07/2025), From quote 011/2025 (15/07/2025), From quote 013/2025 (27/08/2025)",
-    "Prezzo di acquisto": 0.0,
-    "Giacenza": ""
-  },
-  {
-    "Codice": "DATINS",
-    "Nome prodotto/servizio": "Data insert",
-    "Descrizione": "Data insert Data insert pagine sitemap",
-    "Categoria": "Data insert",
-    "Prezzo netto": 70.0,
-    "Prezzo lordo": "",
-    "Aliquota IVA": "",
-    "Descrizione aliquota IVA": "",
-    "U.D.M.": "pagine",
-    "Extra": "From quote 004/2025 (24/03/2025)",
-    "Prezzo di acquisto": 0.0,
-    "Giacenza": ""
-  },
-  {
-    "Codice": "WOO500",
-    "Nome prodotto/servizio": "Installazione woocommerce",
-    "Descrizione": "Installazione woocommerce\n- installazione woocommerce\n- configurazione spedizione\n- configurazione metodi di pagamento\n- interfacciamento e verifica funzionalità a frontend",
-    "Categoria": "Developer",
-    "Prezzo netto": 800.0,
-    "Prezzo lordo": "",
-    "Aliquota IVA": "",
-    "Descrizione aliquota IVA": "",
-    "U.D.M.": "",
-    "Extra": "From quote 004/2025 (24/03/2025)",
-    "Prezzo di acquisto": 0.0,
-    "Giacenza": ""
-  },
-  {
-    "Codice": "LIC_1",
-    "Nome prodotto/servizio": "Licenza prodotto software",
-    "Descrizione": "Licenza prodotto software\n- Elementor pro\n- Crocoblock\n- Translatepress",
-    "Categoria": "Saas",
-    "Prezzo netto": 100.0,
-    "Prezzo lordo": "",
-    "Aliquota IVA": "",
-    "Descrizione aliquota IVA": "",
-    "U.D.M.": "licenze",
-    "Extra": "From quote 004/2025 (24/03/2025)",
-    "Prezzo di acquisto": 0.0,
-    "Giacenza": ""
-  },
-  {
-    "Codice": "SERWEB",
-    "Nome prodotto/servizio": "Server web 30",
-    "Descrizione": "Server web 30 Server web 50 standard\n- infrastruttura server\n- gestione ambiente linux\n- backup automatico e on demand\n- crisis management",
-    "Categoria": "Developer",
-    "Prezzo netto": 30.0,
-    "Prezzo lordo": "",
-    "Aliquota IVA": "",
-    "Descrizione aliquota IVA": "",
-    "U.D.M.": "mesi",
-    "Extra": "From quote 004/2025 (24/03/2025)",
-    "Prezzo di acquisto": 0.0,
-    "Giacenza": ""
-  },
-  {
-    "Codice": "WP200",
-    "Nome prodotto/servizio": "Wordpress monitor e update",
-    "Descrizione": "Wordpress monitor e update Update e monitoraggio Wordpress annuale",
-    "Categoria": "Developer",
-    "Prezzo netto": 200.0,
-    "Prezzo lordo": "",
-    "Aliquota IVA": "",
-    "Descrizione aliquota IVA": "",
-    "U.D.M.": "siti",
-    "Extra": "From quote 004/2025 (24/03/2025)",
-    "Prezzo di acquisto": 0.0,
-    "Giacenza": ""
-  },
-  {
-    "Codice": "ECOUPDE",
-    "Nome prodotto/servizio": "Ecommerce update e assistenza mensile",
-    "Descrizione": "Ecommerce update e assistenza mensile\n- Monitoraggio funzionalità e core vitals per sito ecommerce\n- Gestione criticità ecommerce",
-    "Categoria": "Monitor",
-    "Prezzo netto": 80.0,
-    "Prezzo lordo": "",
-    "Aliquota IVA": "",
-    "Descrizione aliquota IVA": "",
-    "U.D.M.": "mesi",
-    "Extra": "From quote 004/2025 (24/03/2025)",
-    "Prezzo di acquisto": 0.0,
-    "Giacenza": ""
-  },
-  {
-    "Codice": "DATINS_1",
-    "Nome prodotto/servizio": "Data insert",
-    "Descrizione": "Data insert Data insert pagine sitemap",
-    "Categoria": "Data insert",
-    "Prezzo netto": 50.0,
-    "Prezzo lordo": "",
-    "Aliquota IVA": "",
-    "Descrizione aliquota IVA": "",
-    "U.D.M.": "pagine",
-    "Extra": "From quote 005/2025 (25/03/2025)",
-    "Prezzo di acquisto": 0.0,
-    "Giacenza": ""
-  },
-  {
-    "Codice": "LICPROSOF",
-    "Nome prodotto/servizio": "Licenza prodotto software",
-    "Descrizione": "Licenza prodotto software\n- Elementor pro",
-    "Categoria": "Saas",
-    "Prezzo netto": 100.0,
-    "Prezzo lordo": "",
-    "Aliquota IVA": "",
-    "Descrizione aliquota IVA": "",
-    "U.D.M.": "licenze",
-    "Extra": "From quote 005/2025 (25/03/2025), From quote 006/2025 (27/03/2025)",
-    "Prezzo di acquisto": 0.0,
-    "Giacenza": ""
-  },
-  {
-    "Codice": "SW50",
-    "Nome prodotto/servizio": "Server web 50",
-    "Descrizione": "Server web 50 Server web 50 standard\n- infrastruttura server\n- gestione ambiente linux\n- backup automatico e on demand\n- crisis management",
-    "Categoria": "Iaas",
-    "Prezzo netto": 50.0,
-    "Prezzo lordo": "",
-    "Aliquota IVA": "",
-    "Descrizione aliquota IVA": "",
-    "U.D.M.": "mesi",
-    "Extra": "From quote 005/2025 (25/03/2025)",
-    "Prezzo di acquisto": 0.0,
-    "Giacenza": ""
-  },
-  {
-    "Codice": "WORMONE",
-    "Nome prodotto/servizio": "Wordpress monitor e update",
-    "Descrizione": "Wordpress monitor e update Update e monitoraggio Wordpress standard",
-    "Categoria": "Developer",
-    "Prezzo netto": 20.0,
-    "Prezzo lordo": "",
-    "Aliquota IVA": "",
-    "Descrizione aliquota IVA": "",
-    "U.D.M.": "mesi",
-    "Extra": "From quote 005/2025 (25/03/2025), From quote 006/2025 (27/03/2025)",
-    "Prezzo di acquisto": 0.0,
-    "Giacenza": ""
-  },
-  {
-    "Codice": "DATINS_2",
-    "Nome prodotto/servizio": "Data insert",
-    "Descrizione": "Data insert Data insert pagine sitemap",
-    "Categoria": "Data insert",
-    "Prezzo netto": 50.0,
-    "Prezzo lordo": "",
-    "Aliquota IVA": "",
-    "Descrizione aliquota IVA": "",
-    "U.D.M.": "pagine",
-    "Extra": "From quote 006/2025 (27/03/2025)",
-    "Prezzo di acquisto": 0.0,
-    "Giacenza": ""
-  },
-  {
-    "Codice": "SW30",
-    "Nome prodotto/servizio": "Server web 30",
-    "Descrizione": "Server web 30 Server web 50 standard\n- infrastruttura server\n- gestione ambiente linux\n- backup automatico e on demand\n- crisis management",
-    "Categoria": "Iaas",
-    "Prezzo netto": 30.0,
-    "Prezzo lordo": "",
-    "Aliquota IVA": "",
-    "Descrizione aliquota IVA": "",
-    "U.D.M.": "mesi",
-    "Extra": "From quote 006/2025 (27/03/2025)",
-    "Prezzo di acquisto": 0.0,
-    "Giacenza": ""
-  },
-  {
-    "Codice": "MUSLIVE_1",
-    "Nome prodotto/servizio": "MPF Band",
-    "Descrizione": "MPF Band 1/6 con recupero 7/6 Bavinum, Villa Fedora",
-    "Categoria": "Music",
-    "Prezzo netto": 650.0,
-    "Prezzo lordo": "",
-    "Aliquota IVA": "",
-    "Descrizione aliquota IVA": "",
-    "U.D.M.": "esibizioni",
-    "Extra": "From quote 007/2025 (11/04/2025)",
-    "Prezzo di acquisto": 0.0,
-    "Giacenza": ""
-  },
-  {
-    "Codice": "THEBAN",
-    "Nome prodotto/servizio": "theCenti Band",
-    "Descrizione": "theCenti Band theCenti Band\n- 18/7 Go Wine, Arena Nadur\n- 13/8 Note d'Estate\n- piazza D. Alighieri",
-    "Categoria": "Consultant",
-    "Prezzo netto": 650.0,
-    "Prezzo lordo": "",
-    "Aliquota IVA": "",
-    "Descrizione aliquota IVA": "",
-    "U.D.M.": "esibizioni",
-    "Extra": "From quote 007/2025 (11/04/2025)",
-    "Prezzo di acquisto": 0.0,
-    "Giacenza": ""
-  },
-  {
-    "Codice": "MUSLIVE_2",
-    "Nome prodotto/servizio": "Tritonic",
-    "Descrizione": "Tritonic -19/7 Go Wine, Arena Nadur",
-    "Categoria": "Music",
-    "Prezzo netto": 550.0,
-    "Prezzo lordo": "",
-    "Aliquota IVA": "",
-    "Descrizione aliquota IVA": "",
-    "U.D.M.": "esibizioni",
-    "Extra": "From quote 007/2025 (11/04/2025)",
-    "Prezzo di acquisto": 0.0,
-    "Giacenza": ""
-  },
-  {
-    "Codice": "CONCAT",
-    "Nome prodotto/servizio": "Configurazione catalogo",
-    "Descrizione": "Configurazione catalogo Configurazione catalogo prodotti",
-    "Categoria": "Consultant",
-    "Prezzo netto": 50.0,
-    "Prezzo lordo": "",
-    "Aliquota IVA": "",
-    "Descrizione aliquota IVA": "",
-    "U.D.M.": "ore",
-    "Extra": "From quote 008/2025 (15/07/2025), From quote 009/2025 (15/07/2025)",
-    "Prezzo di acquisto": 0.0,
-    "Giacenza": ""
-  },
-  {
-    "Codice": "LIC_3",
-    "Nome prodotto/servizio": "Licenza prodotto software",
-    "Descrizione": "Licenza prodotto software\n- Elementor pro",
-    "Categoria": "Saas",
-    "Prezzo netto": 100.0,
-    "Prezzo lordo": "",
-    "Aliquota IVA": "",
-    "Descrizione aliquota IVA": "",
-    "U.D.M.": "licenze",
-    "Extra": "From quote 008/2025 (15/07/2025)",
-    "Prezzo di acquisto": 0.0,
-    "Giacenza": ""
-  },
-  {
-    "Codice": "WP20",
-    "Nome prodotto/servizio": "Wordpress monitor e update",
-    "Descrizione": "Wordpress monitor e update Update e monitoraggio Wordpress standard",
-    "Categoria": "Developer",
-    "Prezzo netto": 20.0,
-    "Prezzo lordo": "",
-    "Aliquota IVA": "",
-    "Descrizione aliquota IVA": "",
-    "U.D.M.": "mesi",
-    "Extra": "From quote 008/2025 (15/07/2025), From quote 009/2025 (15/07/2025)",
-    "Prezzo di acquisto": 0.0,
-    "Giacenza": ""
-  },
-  {
-    "Codice": "LIC_4",
-    "Nome prodotto/servizio": "Licenza prodotto software",
-    "Descrizione": "Licenza prodotto software\n- Elementor pro",
-    "Categoria": "Saas",
-    "Prezzo netto": 70.0,
-    "Prezzo lordo": "",
-    "Aliquota IVA": "",
-    "Descrizione aliquota IVA": "",
-    "U.D.M.": "licenze",
-    "Extra": "From quote 009/2025 (15/07/2025)",
-    "Prezzo di acquisto": 0.0,
-    "Giacenza": ""
-  },
-  {
-    "Codice": "INSSITWEB_1",
-    "Nome prodotto/servizio": "Installazione sito web base",
-    "Descrizione": "Installazione sito web base Allestimento ed installazione sito web base Wordpress\n- allocazione applicativo in server\n- gestione dominio\n- installazione wordpress\n- installazione e configurazione plugin\n- gestione integrazione immagine coordinata",
-    "Categoria": "Developer",
-    "Prezzo netto": 500.0,
-    "Prezzo lordo": "",
-    "Aliquota IVA": "",
-    "Descrizione aliquota IVA": "",
-    "U.D.M.": "siti",
-    "Extra": "From quote 010/2025 (15/07/2025)",
-    "Prezzo di acquisto": 0.0,
-    "Giacenza": ""
-  },
-  {
-    "Codice": "DATINS_3",
-    "Nome prodotto/servizio": "Data insert",
-    "Descrizione": "Data insert Data insert pagine sitemap",
-    "Categoria": "Data insert",
-    "Prezzo netto": 50.0,
-    "Prezzo lordo": "",
-    "Aliquota IVA": "",
-    "Descrizione aliquota IVA": "",
-    "U.D.M.": "pagine",
-    "Extra": "From quote 010/2025 (15/07/2025)",
-    "Prezzo di acquisto": 0.0,
-    "Giacenza": ""
-  },
-  {
-    "Codice": "LICPROSOF_1",
-    "Nome prodotto/servizio": "Licenza prodotto software",
-    "Descrizione": "Licenza prodotto software\n- Elementor pro",
-    "Categoria": "Saas",
-    "Prezzo netto": 70.0,
-    "Prezzo lordo": "",
-    "Aliquota IVA": "",
-    "Descrizione aliquota IVA": "",
-    "U.D.M.": "licenze",
-    "Extra": "From quote 010/2025 (15/07/2025)",
-    "Prezzo di acquisto": 0.0,
-    "Giacenza": ""
-  },
-  {
-    "Codice": "SW20",
-    "Nome prodotto/servizio": "Server web small 20",
-    "Descrizione": "Server web small 20 Server web 20 small\n- infrastruttura server\n- gestione ambiente linux\n- backup automatico e on demand\n- crisis management",
-    "Categoria": "Iaas",
-    "Prezzo netto": 20.0,
-    "Prezzo lordo": "",
-    "Aliquota IVA": "",
-    "Descrizione aliquota IVA": "",
-    "U.D.M.": "mesi",
-    "Extra": "From quote 010/2025 (15/07/2025), From quote 011/2025 (15/07/2025)",
-    "Prezzo di acquisto": 0.0,
-    "Giacenza": ""
-  },
-  {
-    "Codice": "WORMONE_1",
-    "Nome prodotto/servizio": "Wordpress monitor e update",
-    "Descrizione": "Wordpress monitor e update Update e monitoraggio Wordpress standard",
-    "Categoria": "Developer",
-    "Prezzo netto": 10.0,
-    "Prezzo lordo": "",
-    "Aliquota IVA": "",
-    "Descrizione aliquota IVA": "",
-    "U.D.M.": "mesi",
-    "Extra": "From quote 010/2025 (15/07/2025)",
-    "Prezzo di acquisto": 0.0,
-    "Giacenza": ""
-  },
-  {
-    "Codice": "INSSITWEB_2",
-    "Nome prodotto/servizio": "Installazione sito web base",
-    "Descrizione": "Installazione sito web base Allestimento ed installazione sito web base Wordpress\n- allocazione applicativo in server\n- gestione dominio\n- installazione wordpress\n- installazione e configurazione plugin\n- gestione integrazione immagine coordinata",
-    "Categoria": "Developer",
-    "Prezzo netto": 500.0,
-    "Prezzo lordo": "",
-    "Aliquota IVA": "",
-    "Descrizione aliquota IVA": "",
-    "U.D.M.": "siti",
-    "Extra": "From quote 011/2025 (15/07/2025)",
-    "Prezzo di acquisto": 0.0,
-    "Giacenza": ""
-  },
-  {
-    "Codice": "DATINS_4",
-    "Nome prodotto/servizio": "Data insert",
-    "Descrizione": "Data insert Data insert pagine sitemap",
-    "Categoria": "Data insert",
-    "Prezzo netto": 50.0,
-    "Prezzo lordo": "",
-    "Aliquota IVA": "",
-    "Descrizione aliquota IVA": "",
-    "U.D.M.": "pagine",
-    "Extra": "From quote 011/2025 (15/07/2025)",
-    "Prezzo di acquisto": 0.0,
-    "Giacenza": ""
-  },
-  {
-    "Codice": "LICPROSOF_2",
-    "Nome prodotto/servizio": "Licenza prodotto software",
-    "Descrizione": "Licenza prodotto software\n- Elementor pro",
-    "Categoria": "Saas",
-    "Prezzo netto": 70.0,
-    "Prezzo lordo": "",
-    "Aliquota IVA": "",
-    "Descrizione aliquota IVA": "",
-    "U.D.M.": "licenze",
-    "Extra": "From quote 011/2025 (15/07/2025)",
-    "Prezzo di acquisto": 0.0,
-    "Giacenza": ""
-  },
-  {
-    "Codice": "WORMONE_2",
-    "Nome prodotto/servizio": "Wordpress monitor e update",
-    "Descrizione": "Wordpress monitor e update Update e monitoraggio Wordpress standard",
-    "Categoria": "Developer",
-    "Prezzo netto": 10.0,
-    "Prezzo lordo": "",
-    "Aliquota IVA": "",
-    "Descrizione aliquota IVA": "",
-    "U.D.M.": "mesi",
-    "Extra": "From quote 011/2025 (15/07/2025)",
-    "Prezzo di acquisto": 0.0,
-    "Giacenza": ""
-  },
-  {
-    "Codice": "MUSLIVE_3",
-    "Nome prodotto/servizio": "Musica dal vivo",
-    "Descrizione": "Musica dal vivo Cerimonia standard con 1 musicista",
-    "Categoria": "Music",
-    "Prezzo netto": 150.0,
-    "Prezzo lordo": "",
-    "Aliquota IVA": "",
-    "Descrizione aliquota IVA": "",
-    "U.D.M.": "ore",
-    "Extra": "From quote 012/2025 (20/07/2025)",
-    "Prezzo di acquisto": 0.0,
-    "Giacenza": ""
-  },
-  {
-    "Codice": "MUSDALVIV",
-    "Nome prodotto/servizio": "Musica dal vivo",
-    "Descrizione": "Musica dal vivo Cantante addizionale opzionale",
-    "Categoria": "Music",
-    "Prezzo netto": 100.0,
-    "Prezzo lordo": "",
-    "Aliquota IVA": "",
-    "Descrizione aliquota IVA": "",
-    "U.D.M.": "ore",
-    "Extra": "From quote 012/2025 (20/07/2025)",
-    "Prezzo di acquisto": 0.0,
-    "Giacenza": ""
-  },
-  {
-    "Codice": "DJSOFT",
-    "Nome prodotto/servizio": "Dj e intrattenimento ricevimento",
-    "Descrizione": "Dj e intrattenimento ricevimento DJ e intrattenimento soft durante il ricevimento dalle 18 alle 22",
-    "Categoria": "Music",
-    "Prezzo netto": 80.0,
-    "Prezzo lordo": "",
-    "Aliquota IVA": "",
-    "Descrizione aliquota IVA": "",
-    "U.D.M.": "ore",
-    "Extra": "From quote 012/2025 (20/07/2025), From quote 014/2025 (11/09/2025)",
-    "Prezzo di acquisto": 0.0,
-    "Giacenza": ""
-  },
-  {
-    "Codice": "INSSITWEB_3",
-    "Nome prodotto/servizio": "Installazione sito web base",
-    "Descrizione": "Installazione sito web base Allestimento ed installazione sito web base Wordpress\n- allocazione applicativo in server\n- gestione dominio\n- installazione wordpress\n- installazione e configurazione plugin\n- gestione integrazione immagine coordinata",
-    "Categoria": "Developer",
-    "Prezzo netto": 500.0,
-    "Prezzo lordo": "",
-    "Aliquota IVA": "",
-    "Descrizione aliquota IVA": "",
-    "U.D.M.": "siti",
-    "Extra": "From quote 013/2025 (27/08/2025)",
-    "Prezzo di acquisto": 0.0,
-    "Giacenza": ""
-  },
-  {
-    "Codice": "DATINS_5",
-    "Nome prodotto/servizio": "Data insert",
-    "Descrizione": "Data insert Data insert pagine sitemap",
-    "Categoria": "Data insert",
-    "Prezzo netto": 50.0,
-    "Prezzo lordo": "",
-    "Aliquota IVA": "",
-    "Descrizione aliquota IVA": "",
-    "U.D.M.": "pagine",
-    "Extra": "From quote 013/2025 (27/08/2025)",
-    "Prezzo di acquisto": 0.0,
-    "Giacenza": ""
-  },
-  {
-    "Codice": "LICPROSOF_3",
-    "Nome prodotto/servizio": "Licenza prodotto software",
-    "Descrizione": "Licenza prodotto software\n- Elementor pro",
-    "Categoria": "Saas",
-    "Prezzo netto": 70.0,
-    "Prezzo lordo": "",
-    "Aliquota IVA": "",
-    "Descrizione aliquota IVA": "",
-    "U.D.M.": "licenze",
-    "Extra": "From quote 013/2025 (27/08/2025)",
-    "Prezzo di acquisto": 0.0,
-    "Giacenza": ""
-  },
-  {
-    "Codice": "LIC_8",
-    "Nome prodotto/servizio": "Licenza prodotto software",
-    "Descrizione": "Licenza prodotto software\n- Translatepress pro per traduzione in quadrupla lingua (acquistabile a parte)",
-    "Categoria": "Saas",
-    "Prezzo netto": 200.0,
-    "Prezzo lordo": "",
-    "Aliquota IVA": "",
-    "Descrizione aliquota IVA": "",
-    "U.D.M.": "licenze",
-    "Extra": "From quote 013/2025 (27/08/2025)",
-    "Prezzo di acquisto": 0.0,
-    "Giacenza": ""
-  },
-  {
-    "Codice": "WP10",
-    "Nome prodotto/servizio": "Wordpress monitor e update",
-    "Descrizione": "Wordpress monitor e update Update e monitoraggio Wordpress standard",
-    "Categoria": "Developer",
-    "Prezzo netto": 10.0,
-    "Prezzo lordo": "",
-    "Aliquota IVA": "",
-    "Descrizione aliquota IVA": "",
-    "U.D.M.": "mesi",
-    "Extra": "From quote 013/2025 (27/08/2025)",
-    "Prezzo di acquisto": 0.0,
-    "Giacenza": ""
-  },
-  {
-    "Codice": "DJEINT_1",
-    "Nome prodotto/servizio": "Dj e intrattenimento",
-    "Descrizione": "Dj e intrattenimento",
-    "Categoria": "Music",
-    "Prezzo netto": 100.0,
-    "Prezzo lordo": "",
-    "Aliquota IVA": "",
-    "Descrizione aliquota IVA": "",
-    "U.D.M.": "ore",
-    "Extra": "From quote 014/2025 (11/09/2025)",
-    "Prezzo di acquisto": 0.0,
-    "Giacenza": ""
+    "documento": "014/2025",
+    "tipologia": "preventivo",
+    "data": "11/09/2025",
+    "cliente": {
+      "nome": "Silvia Tognetti e Marco Colombo",
+      "indirizzo": "",
+      "citta": "",
+      "piva": "",
+      "email": ""
+    },
+    "oggetto": "Wedding 4 ottobre 2025 Piccolo Lago",
+    "prodotti": [
+      {
+        "codice": "MUS120",
+        "descrizione": "Service audio in location ricevimento, senza la",
+        "quantita": 1,
+        "prezzo_unitario": 150.0,
+        "totale": 150.0,
+        "udm": "postazioni"
+      },
+      {
+        "codice": "DJSOFT",
+        "descrizione": "DJ e intrattenimento soft durante il ricevimento",
+        "quantita": 6,
+        "prezzo_unitario": 80.0,
+        "totale": 480.0,
+        "udm": "ore"
+      },
+      {
+        "codice": "MUSDJ",
+        "descrizione": "Dj e intrattenimento",
+        "quantita": 1,
+        "prezzo_unitario": 100.0,
+        "totale": 100.0,
+        "udm": "ore"
+      }
+    ],
+    "altri_dati": {
+      "totale": 730.0,
+      "modalita_pagamento": "Bonifico",
+      "note": "Pagamento rimessa diretta su cc"
+    }
   }
 ]
